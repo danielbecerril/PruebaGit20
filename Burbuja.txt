@@ -1,0 +1,21 @@
+function int[] Ordenar(int[] arr,int length)
+Inicio
+
+int temp = 0;
+
+for(int i = 0;i < length - 1;i++)
+inicio
+	for(int j = 0;j < length - i - 1;j++)
+	inicio
+		if(arr[j] > arr[j + 1])
+		inicio
+			temp = arr[j + 1];
+			arr[j + 1] = arr[j];
+			arr[j] = temp;
+		fin
+	fin
+return arr;
+fin
+
+
+
