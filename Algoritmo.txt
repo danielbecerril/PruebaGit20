@@ -1,0 +1,4 @@
+function int lgoritmoPotencia(ina a, int b)
+inicio
+	
+fin
