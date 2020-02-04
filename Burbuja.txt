@@ -17,5 +17,8 @@ inicio
 return arr;
 fin
 
-
+function sum(int a, int b)
+inicio
+	return a + b;
+fin
 
